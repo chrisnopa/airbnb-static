@@ -2,11 +2,15 @@
     list-style: outside none none;
     margin-left: -5px;
     padding-left: 0;
+  h1 {
+    font-size:20px
+  }
+  ul, ol {
+      margin-bottom: 10px;
+      margin-top: 0;
+  }
 }
-ul, ol {
-    margin-bottom: 10px;
-    margin-top: 0;
-}
+
 a fa {
     display: inline-block;
     font-family: FontAwesome;
