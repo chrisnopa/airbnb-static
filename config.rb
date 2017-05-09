@@ -50,6 +50,13 @@ activate :autoprefixer
 #   end
 # end
 
+["chris", "romain", "alf"].each do |name|
+  proxy "/flats/#{name}.html", "/flats/show.html", :locals => { :owner => name }, :ignore => true
+end
+
+
+
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'

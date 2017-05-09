@@ -1,0 +1,29 @@
+chris:
+  owner_name: Christophe Panon
+  picture: card-paris.jpg
+  owner_picture: chris.jpg
+  name: chris's home
+  summary: Charming room in Montmartre
+  city: Paris, France
+  maximum_number_of_guest: 3
+  wifi: true
+
+romain:
+  owner_name: Romain Paillard
+  picture: card-london.jpeg
+  owner_picture: romain.jpeg
+  name: Romain's home
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  maximum_number_of_guest: 4
+  wifi: true
+
+alf:
+  owner_name: Alf
+  picture: card-cairo.jpg
+  owner_picture: alf.jpg
+  name: Alf's home
+  summary: Gorgeous loft in El Cairo
+  city: El Cairo, Egypt
+  maximum_number_of_guest: 5
+  wifi: false

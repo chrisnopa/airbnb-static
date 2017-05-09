@@ -1,59 +1,108 @@
+
+
+/* Card design */
 .card {
-  height: 270px;
-  width: 250px;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-  background-size: cover !important;
-  color: white;
+  height: 250px;
   position: relative;
-  border-radius: 2%;
-/*  padding:20px;
-  margin: 25px
-}*/
-
-  h2 {
-  font-size: 20px;
-  }
-}
-
-.card-user {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-}
-.card-category {
+  border-radius: 5px;
+  background-size: cover;
+  color: white;
+  margin-bottom: 20px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  &-category {
   position: absolute;
   top: 10px;
   left: 10px;
-  font-size: 10px;
-  text-transform: uppercase;
-}
-
-
-.card-description {
+  font-size: 20px;
+  }
+  &-description {
   position: absolute;
   bottom: 10px;
   left: 10px;
-  h2 {
-    font-size: 24px;
+    h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+      }
+    p {
+  font-size: 15px;
+    }
   }
-  p {
-    font-size: 13px;
+  &-user {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 22px;
   }
-}
-
-
-.card-link {
+  &-link {
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 0;
   width: 100%;
-  z-index:2;
-  background: $black;
+  z-index: 2;
+  background: black;
   opacity: 0;
-  &:hover{
-    opacity: 0.1;
+  }
+  &-link:hover {
+  opacity: 0.2;
   }
 }
 
+// .card {
+//   height: 270px;
+//   width: 250px;
+//   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+//   background-size: cover !important;
+//   color: white;
+//   position: relative;
+//   border-radius: 2%;
+// /*  padding:20px;
+//   margin: 25px
+// }*/
 
+//   h2 {
+//   font-size: 20px;
+//   }
+// }
+
+// .card-user {
+//   position: absolute;
+//   right: 10px;
+//   top: 10px;
+// }
+// .card-category {
+//   position: absolute;
+//   top: 10px;
+//   left: 10px;
+//   font-size: 10px;
+//   text-transform: uppercase;
+// }
+
+
+// .card-description {
+//   position: absolute;
+//   bottom: 10px;
+//   left: 10px;
+//   h2 {
+//     font-size: 24px;
+//   }
+//   p {
+//     font-size: 13px;
+//   }
+// }
+
+
+// .card-link {
+//   position: absolute;
+//   top: 0;
+//   bottom: 0;
+//   right: 0;
+//   width: 100%;
+//   z-index:2;
+//   background: $black;
+//   opacity: 0;
+//   &:hover{
+//     opacity: 0.1;
+//   }
+// }
